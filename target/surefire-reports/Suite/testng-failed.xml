@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="remoteTestingDockerValidation.ChromeTest2">
+        <methods>
+          <include name="Chrome2"/>
+        </methods>
+      </class> <!-- remoteTestingDockerValidation.ChromeTest2 -->
+      <class name="remoteTestingDockerValidation.ChromeTest3">
+        <methods>
+          <include name="Chrome3"/>
+        </methods>
+      </class> <!-- remoteTestingDockerValidation.ChromeTest3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
